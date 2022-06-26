@@ -32,7 +32,7 @@ export class AppComponent {
     console.log('symbols', this.includeSymbols);
     console.log('length', this.length);
     const numbers = '1234567890';
-    const letters = 'abcdefghijklmnopqrstuvwxyz';
+    const letters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     const symbols = '!@#$%^&*()';
     let validChar = '';
     if (this.includeLetters) {
